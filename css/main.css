@@ -861,6 +861,13 @@ th {
     float: right;
 }
 
+.section-title1 p {
+    margin-bottom: 0;
+    max-width: 620px;
+    float: left;
+    margin: 1rem;
+}
+
 @media (max-width: 768px) {
     .section-title p br {
         display: none;
