@@ -1068,7 +1068,7 @@ th {
 }
 
 .navbar-nav li a {
-    font-size: 21px;
+    font-size: 15px;
     font-weight: 400;
     color: #fff;
     padding: 20px;
@@ -1206,7 +1206,6 @@ th {
         text-align: center;
     }
 }
-
 .col-lg-5,
 .home-banner-left {
     margin-bottom: 50px;
@@ -1214,7 +1213,7 @@ th {
 
 .home-banner-left h1 {
     color: #222;
-    font-size: 48px;
+    font-size: 44px;
     line-height: 1em;
     margin-bottom: 20px;
 }
@@ -1222,6 +1221,12 @@ th {
 .home-banner-left p {
     font-size: 15px;
 }
+.home-banner-left i{
+    font-size: 18px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
 
 .home-banner-left h1 span {
     font-weight: 900;
@@ -1378,7 +1383,7 @@ th {
 
 @media (max-width: 1680px) and (min-width: 1200px) {
     .feature-area {
-        margin-top: -110px;
+        margin-top: -180px;
     }
 }
 
@@ -1424,16 +1429,19 @@ th {
 
 .feature-item i {
     font-size: 30px;
-    color: #828bb2;
+    color: #ad36e6;
 }
 
 .feature-item h4 {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 14px;
+    font-weight: 400;
 }
 
 .feature-item p {
     margin-bottom: 0px;
+    font-size: 10px;
+    line-height: normal;
 }
 
 
