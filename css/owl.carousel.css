@@ -60,6 +60,16 @@
     display: none;
 }
 
+.popular-course-area .owl-nav .owl-prev img,
+.popular-course-area .owl-nav .owl-next img {
+    opacity: .5 !important;
+}
+
+.popular-course-area .owl-nav .owl-prev img:hover,
+.popular-course-area .owl-nav .owl-next img:hover {
+    opacity: 1 !important;
+}
+
 .owl-carousel .owl-nav .owl-prev,
 .owl-carousel .owl-nav .owl-next,
 .owl-carousel .owl-dot {
