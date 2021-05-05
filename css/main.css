@@ -1383,7 +1383,7 @@ th {
 
 @media (max-width: 1680px) and (min-width: 1200px) {
     .feature-area {
-        margin-top: -180px;
+        margin-top: -220px;
     }
 }
 
@@ -1395,7 +1395,7 @@ th {
 
 @media (max-width: 991px) {
     .feature-area {
-        margin-top: 0px;
+        margin-top: -140px;
     }
 }
 
