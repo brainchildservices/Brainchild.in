@@ -63,14 +63,13 @@
 }
 
 body {
-
-  color: #828bb2;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.625em;
-  position: relative; }
-
+    color: #828bb2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+}
 
 ol,
 ul {
@@ -145,14 +144,13 @@ h3,
 h4,
 h5,
 h6 {
-
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #222222;
-  line-height: 1.2em;
-  margin-bottom: 0;
-  margin-top: 0;
-  font-weight: 300; }
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222222;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 300;
+}
 
 .h1,
 .h2,
@@ -160,13 +158,12 @@ h6 {
 .h4,
 .h5,
 .h6 {
-
-  margin-bottom: 0;
-  margin-top: 0;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 300;
-  color: #222222; }
-
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #222222;
+}
 
 h1,
 .h1 {
@@ -849,12 +846,21 @@ th {
     font-size: 42px;
     color: #222;
     margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.section-title1 h2 {
+    font-size: 42px;
+    color: #222;
+    margin-bottom: 20px;
+    font-weight: 500;
 }
 
 @media (max-width: 768px) {
     .section-title h2 {
         font-size: 30px;
         margin-bottom: 15px;
+        font-weight: 500;
     }
 }
 
@@ -862,6 +868,8 @@ th {
     margin-bottom: 0;
     max-width: 620px;
     float: right;
+    color: rgb(32, 32, 32);
+    font-size: 16px;
 }
 
 .section-title1 p {
@@ -869,6 +877,8 @@ th {
     max-width: 620px;
     float: left;
     margin: 1rem;
+    color: rgb(32, 32, 32);
+    font-size: 16px;
 }
 
 @media (max-width: 768px) {
@@ -1196,8 +1206,9 @@ th {
         text-align: center;
     }
 }
-.col-lg-5,.home-banner-left {
-   margin-bottom: 60px;
+.col-lg-5,
+.home-banner-left {
+    margin-bottom: 50px;
 }
 
 .home-banner-left h1 {
@@ -1206,6 +1217,7 @@ th {
     line-height: 1em;
     margin-bottom: 20px;
 }
+
 .home-banner-left p {
     font-size: 15px;
 }
@@ -1556,6 +1568,7 @@ th {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    font-weight: 500;
 }
 
 .single-popular-course a {
@@ -1725,7 +1738,7 @@ th {
 
 .other-feature-item-one {
     padding: 50px 40px;
-    background: #f2f3f7;
+    background: #ebebeb;
     margin-bottom: 30px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -1735,7 +1748,7 @@ th {
 
 .other-feature-item-two {
     padding: 50px 40px;
-    background: #f2f3f7;
+    background: #ebebeb;
     margin-bottom: 30px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -1746,7 +1759,7 @@ th {
 
 .other-feature-item-three {
     padding: 50px 40px;
-    background: #f2f3f7;
+    background: #ebebeb;
     margin-bottom: 30px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -1757,7 +1770,7 @@ th {
 
 .other-feature-item-four {
     padding: 50px 40px;
-    background: #f2f3f7;
+    background: #ebebeb;
     margin-bottom: 30px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -1768,7 +1781,7 @@ th {
 
 .other-feature-item-five {
     padding: 50px 40px;
-    background: #f2f3f7;
+    background: #ebebeb;
     margin-bottom: 30px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -1779,7 +1792,7 @@ th {
 
 .other-feature-item-six {
     padding: 50px 40px;
-    background: #f2f3f7;
+    background: #ebebeb;
     margin-bottom: 30px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -1892,42 +1905,86 @@ th {
 
 .other-feature-item-one h4 {
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 18px !important;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .other-feature-item-two h4 {
     margin-top: 30px;
     font-size: 18px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .other-feature-item-three h4 {
     margin-top: 30px;
     font-size: 18px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .other-feature-item-four h4 {
     margin-top: 30px;
     font-size: 18px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .other-feature-item-five h4 {
     margin-top: 30px;
     font-size: 18px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .other-feature-item-six h4 {
     margin-top: 30px;
     font-size: 18px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
-.other-feature-item p {
+.other-feature-item-one p {
     margin-bottom: 0px;
+    font-size: 16px !important;
+    font-weight: 300;
+    color: rgb(117, 117, 117);
+}
+
+.other-feature-item-two p {
+    margin-bottom: 0px;
+    font-size: 16px !important;
+    font-weight: 300;
+    color: rgb(117, 117, 117);
+}
+
+.other-feature-item-three p {
+    margin-bottom: 0px;
+    font-size: 16px !important;
+    font-weight: 300;
+    color: rgb(117, 117, 117);
+}
+
+.other-feature-item-four p {
+    margin-bottom: 0px;
+    font-size: 16px !important;
+    font-weight: 300;
+    color: rgb(117, 117, 117);
+}
+
+.other-feature-item-five p {
+    margin-bottom: 0px;
+    font-size: 16px !important;
+    font-weight: 300;
+    color: rgb(117, 117, 117);
+}
+
+.other-feature-item-six p {
+    margin-bottom: 0px;
+    font-size: 16px !important;
+    font-weight: 300;
+    color: rgb(117, 117, 117);
 }
 
 .other-feature-item:hover {
