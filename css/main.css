@@ -800,8 +800,8 @@ th {
 }
 
 .section-gap {
-    padding: 120px 10px;
-    margin-top: 5rem;
+    padding: 10px 10px;
+    margin-top: 3rem;
 }
 
 @media (max-width: 991px) {
