@@ -800,7 +800,7 @@ th {
 }
 
 .section-gap {
-    padding: 120px 10;
+    padding: 120px 10px;
     margin-top: 5rem;
 }
 
@@ -1206,6 +1206,7 @@ th {
         text-align: center;
     }
 }
+
 .col-lg-5,
 .home-banner-left {
     margin-bottom: 50px;
@@ -1221,12 +1222,12 @@ th {
 .home-banner-left p {
     font-size: 15px;
 }
-.home-banner-left i{
+
+.home-banner-left i {
     font-size: 18px;
     font-weight: 100;
     color: #ffffff;
 }
-
 
 .home-banner-left h1 span {
     font-weight: 900;
@@ -1787,7 +1788,7 @@ th {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    margin-top: -15rem;
+    margin-top: -13.5rem;
 }
 
 .other-feature-item-six {
@@ -2284,7 +2285,7 @@ th {
 }
 
 .blog-post-area .single-blog-post .overlay {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .blog-post-area .single-blog-post .top-text {
@@ -2292,8 +2293,10 @@ th {
     top: -30px;
     right: 30px;
     background: #828bb2;
-    padding: 30px;
+    padding: 5%;
     text-align: center;
+    border-radius: 5% 20% 5%;
+    min-width: 25%;
 }
 
 @media (min-width: 1921px) {
