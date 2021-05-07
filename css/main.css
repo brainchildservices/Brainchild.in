@@ -1747,6 +1747,17 @@ th {
     transition: all 0.3s ease 0s;
 }
 
+.other-feature-item-1 {
+    padding: 50px 40px;
+    background: #ebebeb;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+}
+
 .other-feature-item-two {
     padding: 50px 40px;
     background: #ebebeb;
@@ -1756,6 +1767,18 @@ th {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     margin-top: -4rem !important;
+}
+
+.other-feature-item-2 {
+    padding: 50px 40px;
+    background: #ebebeb;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-top: -4rem !important;
+    border-radius: 10px;
 }
 
 .other-feature-item-three {
@@ -1769,6 +1792,18 @@ th {
     margin-top: 12rem;
 }
 
+.other-feature-item-3 {
+    padding: 50px 40px;
+    background: #ebebeb;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-top: 12rem;
+    border-radius: 10px;
+}
+
 .other-feature-item-four {
     padding: 50px 40px;
     background: #ebebeb;
@@ -1778,6 +1813,18 @@ th {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     margin-top: -11rem;
+}
+
+.other-feature-item-4 {
+    padding: 50px 40px;
+    background: #ebebeb;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-top: -11rem;
+    border-radius: 10px;
 }
 
 .other-feature-item-five {
@@ -1791,6 +1838,18 @@ th {
     margin-top: -13.5rem;
 }
 
+.other-feature-item-5 {
+    padding: 50px 40px;
+    background: #ebebeb;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-top: -13.5rem;
+    border-radius: 10px;
+}
+
 .other-feature-item-six {
     padding: 50px 40px;
     background: #ebebeb;
@@ -1800,6 +1859,18 @@ th {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     margin-top: 1rem;
+}
+
+.other-feature-item-6 {
+    padding: 50px 40px;
+    background: #ebebeb;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-top: 1rem;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 990px) {
