@@ -1,6 +1,5 @@
 .hire-banner-area {
     background: url(../img/banner-bg.png) no-repeat center;
-    background-position: right;
     min-height: 510px;
 }
 
@@ -70,3 +69,44 @@
 .hire-banner-right .box a:hover {
     color: #222222;
 }
+@media (max-width: 991px) {
+    .about-area .about-left {
+        margin-bottom: 50px;
+    }
+}
+
+.about-right h1 {
+    margin-bottom: 30px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+    .about-right h1 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-right h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .about-right h1 br {
+        display: none;
+    }
+}
+
+.about-right p:last-of-type {
+    margin-bottom: 0;
+}
+
+.about-left img  {
+    height: 500px;
+    width:500px;
+    margin-bottom: 120px;
+}
+
