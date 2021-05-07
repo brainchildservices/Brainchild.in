@@ -1,13 +1,12 @@
 .team-banner-area {
-    background: url(../img/banner-bg.png) no-repeat center;
-    background-position: right;
+    background: url(../img/banner-bg1.png) no-repeat bottom;
+    background-position: bottom;
     min-height: 510px;
 }
 
 .team-banner-right {
     margin-top: 110px;
     text-align: right;
-   
 }
 
 @media (max-width: 1199px) {
@@ -27,7 +26,8 @@
         display: none;
     }
 }
-.team-banner-right p{
+
+.team-banner-right p {
     font-size: 14px;
 }
 
@@ -71,7 +71,9 @@
     color: #222222;
 }
 
+
 /* feature area */
+
 .team-feature-area {
     margin-top: -210px;
 }
