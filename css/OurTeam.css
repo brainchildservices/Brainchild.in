@@ -40,13 +40,15 @@ body {
     text-transform: uppercase;
 }
 
-.team-member,
-.team-member .team-img {
+.team-member .team-img img {
     position: relative;
+    width: 100%;
+    height: 15rem;
 }
 
 .team-member {
     overflow: hidden;
+    position: relative;
 }
 
 .team-member,
