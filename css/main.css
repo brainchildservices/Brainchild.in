@@ -1452,7 +1452,7 @@ th {
 .popular-course-area .container-fluid {
     padding-left: 21%;
     padding-right: 0;
-    margin-top: 5rem !important;
+    margin-top: 0.1rem !important;
 }
 
 @media (min-width: 1921px) {
@@ -1711,7 +1711,7 @@ th {
 }
 
 .other-feature-area {
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 @media (max-width: 991px) {
@@ -4846,7 +4846,7 @@ h6 {
 }
 
 .footer-area {
-    padding: 339px 0px 120px;
+    padding: 360px 0px 40px;
     background: url(../img/footer-bg.png) no-repeat center;
 }
 
