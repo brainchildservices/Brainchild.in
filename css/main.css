@@ -283,7 +283,8 @@ th {
 }
 
 .mt--260 {
-    margin-top: -260px;
+    margin-top: -160px;
+    margin-bottom: 10PX;
 }
 
 .mt--160 {
@@ -2252,7 +2253,7 @@ th {
     font-size: 20px;
     margin-bottom: 0;
     line-height: 32px;
-    font-style: italic;
+    color: #000;
 }
 
 @media (max-width: 575px) {
@@ -2394,7 +2395,7 @@ th {
 
 @media (max-width: 767px) {
     .blog-post-area .mt--160 {
-        margin-top: 50px;
+        margin-top: 10px;
     }
 }
 
@@ -2407,6 +2408,7 @@ th {
 .blog-post-area .single-blog-post {
     position: relative;
     color: #fff;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 991px) {
