@@ -22,6 +22,7 @@ body {
     margin-bottom: 0;
     letter-spacing: 2px;
     font-weight: normal;
+    margin-left: 1rem;
 }
 
 .p-top-30 {
@@ -34,6 +35,7 @@ body {
     display: inline-block;
     line-height: 25px;
     color: #7e7e7e;
+    margin-left: 1rem;
 }
 
 .text-uppercase {
@@ -43,7 +45,7 @@ body {
 .team-member .team-img img {
     position: relative;
     width: 100%;
-    height: 15rem;
+    height: 50%;
 }
 
 .team-member {
@@ -54,6 +56,7 @@ body {
 .team-member,
 .team-member .team-img {
     position: relative;
+    margin: 0px 5px 0px;
 }
 
 .team-hover {
@@ -146,7 +149,7 @@ body {
 }
 
 .team-title h5 {
-    margin-bottom: 0px;
+    margin-left: 10px;
     display: block;
     text-transform: uppercase;
 }
@@ -156,4 +159,5 @@ body {
     text-transform: uppercase;
     color: #a5a5a5;
     letter-spacing: 1px;
+    margin-left: 10px;
 }
