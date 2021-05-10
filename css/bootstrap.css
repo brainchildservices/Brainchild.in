@@ -221,10 +221,38 @@ figure {
     margin: 0 0 1rem
 }
 
-img {
+#img-logo {
     vertical-align: middle;
     border-style: none;
-    height: 20px;
+    height: 50px;
+    align-items: center;
+}
+
+@media screen and (max-width:400px) {
+    #img-logo {
+        vertical-align: middle;
+        border-style: none;
+        height: 40px;
+        content: url("/img/logoMobile.png");
+    }
+}
+
+@media screen and (max-width:400px) {
+    #img-logo:hover {
+        vertical-align: middle;
+        border-style: none;
+        height: 40px;
+        content: url("/img/logo.png");
+    }
+}
+
+@media (max-width:350px) {
+    #img-logo {
+        vertical-align: middle;
+        border-style: none;
+        height: 30px;
+        align-items: center;
+    }
 }
 
 svg {
@@ -4204,12 +4232,6 @@ input[type=submit].btn-block {
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
-    background-image: url("img/logo.png");
-}
-
-.navbar-brand .img {
-    height: 50px;
-    width: 100%;
 }
 
 .navbar-brand:focus,

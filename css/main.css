@@ -283,7 +283,8 @@ th {
 }
 
 .mt--260 {
-    margin-top: -260px;
+    margin-top: -160px;
+    margin-bottom: 10PX;
 }
 
 .mt--160 {
@@ -1747,6 +1748,8 @@ th {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .other-feature-item-1 {
@@ -1758,6 +1761,8 @@ th {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .other-feature-item-two {
@@ -1770,6 +1775,8 @@ th {
     transition: all 0.3s ease 0s;
     margin-top: -4rem !important;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .other-feature-item-2 {
@@ -1782,6 +1789,8 @@ th {
     transition: all 0.3s ease 0s;
     margin-top: -4rem !important;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .other-feature-item-three {
@@ -1794,6 +1803,8 @@ th {
     transition: all 0.3s ease 0s;
     margin-top: 12rem;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .other-feature-item-3 {
@@ -1806,6 +1817,8 @@ th {
     transition: all 0.3s ease 0s;
     margin-top: 12rem;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .other-feature-item-four {
@@ -1818,6 +1831,8 @@ th {
     transition: all 0.3s ease 0s;
     margin-top: -11rem;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .other-feature-item-4 {
@@ -1830,6 +1845,8 @@ th {
     transition: all 0.3s ease 0s;
     margin-top: -11rem;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .other-feature-item-five {
@@ -1842,6 +1859,8 @@ th {
     transition: all 0.3s ease 0s;
     margin-top: -13.5rem;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .other-feature-item-5 {
@@ -1854,6 +1873,8 @@ th {
     transition: all 0.3s ease 0s;
     margin-top: -13.5rem;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .other-feature-item-six {
@@ -1866,6 +1887,8 @@ th {
     transition: all 0.3s ease 0s;
     margin-top: 1rem;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .other-feature-item-6 {
@@ -1878,6 +1901,8 @@ th {
     transition: all 0.3s ease 0s;
     margin-top: 1rem;
     border-radius: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -2253,7 +2278,7 @@ th {
     font-size: 20px;
     margin-bottom: 0;
     line-height: 32px;
-    font-style: italic;
+    color: #000;
 }
 
 @media (max-width: 575px) {
@@ -2395,7 +2420,7 @@ th {
 
 @media (max-width: 767px) {
     .blog-post-area .mt--160 {
-        margin-top: 50px;
+        margin-top: 10px;
     }
 }
 
@@ -2408,6 +2433,7 @@ th {
 .blog-post-area .single-blog-post {
     position: relative;
     color: #fff;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 991px) {
