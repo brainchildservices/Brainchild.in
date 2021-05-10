@@ -1613,6 +1613,7 @@ th {
 
 .video-area {
     background: url(../img/video-area-bg.png) no-repeat center;
+    padding-top: 20px;
 }
 
 @media (max-width: 991px) {
