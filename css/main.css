@@ -1348,6 +1348,7 @@ th {
 @media (max-width: 991px) {
     .about-area .about-left {
         margin-bottom: 50px;
+        margin-top: -3rem;
     }
 }
 
