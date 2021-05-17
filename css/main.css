@@ -5040,7 +5040,7 @@ h6 {
 
 .buttonbutton1 {
     margin: 5px;
-    padding: 5px;
+    padding: 5px 10px 5px;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: #FFC107;
@@ -5049,8 +5049,6 @@ h6 {
     font-weight: 400;
     text-transform: uppercase;
     vertical-align: middle;
-    width: 120px;
-    display: flexbox;
 }
 
 .buttonbutton1 a {
