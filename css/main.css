@@ -2559,6 +2559,12 @@ th {
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 22px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.course-details-area .main-image {
+    text-align: center;
 }
 
 .course-details-area .title:after {
@@ -5036,6 +5042,44 @@ h6 {
 .col-lg-4-col-md-6 #mt260 {
     margin-top: 5rem !important;
     margin-bottom: 1rem !important;
+}
+
+
+/*Terms Of Use*/
+
+.medium-tiempos {
+    color: #1b212c;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: -0.3px;
+    font-family: Tiemposheadlineweb, 'Times New Roman', sans-serif;
+    text-align: center;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+.body-copy.faq.smaller {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.body-copy.faq {
+    font-family: 'Suisseintl webs', Arial, sans-serif;
+    color: #1b212c;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    margin-top: 30px;
+}
+
+.link-underline {
+    border-bottom: 1px solid #1b212c;
+    color: #1b212c;
+    letter-spacing: 0.1px;
+    text-decoration: none;
 }
 
 
