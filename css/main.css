@@ -1205,12 +1205,17 @@ th {
 @media (max-width: 768px) {
     .home-banner-left {
         text-align: center;
+        margin: 10px;
+        padding: 0;
     }
 }
 
-.col-lg-5,
-.home-banner-left {
-    margin-bottom: 50px;
+#bannertext {
+    margin-bottom: 10rem;
+}
+
+#textteam {
+    width: 97% !important;
 }
 
 .home-banner-left h1 {
@@ -1254,7 +1259,8 @@ th {
 
 @media (max-width: 414px) {
     .home-banner-left h1 {
-        font-size: 40px;
+        font-size: 35px;
+        margin-top: 5rem;
     }
 }
 
@@ -1830,7 +1836,7 @@ th {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    margin-top: -11rem;
+    margin-top: -13rem;
     border-radius: 10px;
     text-align: justify;
     margin-right: 10px;
@@ -1858,7 +1864,7 @@ th {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    margin-top: -13.5rem;
+    margin-top: -16.5rem;
     border-radius: 10px;
     text-align: justify;
     margin-right: 10px;
@@ -2067,6 +2073,7 @@ th {
     font-size: 18px !important;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-two h4 {
@@ -2074,6 +2081,7 @@ th {
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-three h4 {
@@ -2081,6 +2089,7 @@ th {
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-four h4 {
@@ -2088,6 +2097,7 @@ th {
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-five h4 {
@@ -2095,6 +2105,7 @@ th {
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-six h4 {
@@ -2102,6 +2113,7 @@ th {
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-one p {
