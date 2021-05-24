@@ -1208,6 +1208,22 @@ th {
     }
 }
 
+@media (max-width: 768px) {
+    .home-banner-left {
+        text-align: center;
+        margin: 10px;
+        padding: 0;
+    }
+}
+
+#bannertext {
+    margin-bottom: 10rem;
+}
+
+#textteam {
+    width: 97% !important;
+}
+
 .col-lg-5,
 .home-banner-left {
     margin-bottom: 50px;
@@ -1830,7 +1846,7 @@ th {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    margin-top: -11rem;
+    margin-top: -13rem;
     border-radius: 10px;
     text-align: justify;
     margin-right: 10px;
@@ -1858,7 +1874,7 @@ th {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    margin-top: -13.5rem;
+    margin-top: -16.5rem;
     border-radius: 10px;
     text-align: justify;
     margin-right: 10px;
@@ -2067,6 +2083,7 @@ th {
     font-size: 18px !important;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-two h4 {
@@ -2074,6 +2091,7 @@ th {
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-three h4 {
@@ -2081,6 +2099,7 @@ th {
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-four h4 {
@@ -2088,6 +2107,7 @@ th {
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-five h4 {
@@ -2095,6 +2115,7 @@ th {
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-six h4 {
@@ -2102,6 +2123,7 @@ th {
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .other-feature-item-one p {
@@ -5098,6 +5120,18 @@ strong {
     color: #1b212c;
     letter-spacing: 0.1px;
     text-decoration: none;
+}
+
+#textdeco {
+    text-shadow: #1b212c;
+}
+
+#applyhead {
+    font-size: 30px !important;
+}
+
+#applypara {
+    color: #fff;
 }
 
 
