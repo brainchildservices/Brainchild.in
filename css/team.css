@@ -26,6 +26,12 @@
     font-size: 13px;
 }
 
+@media (max-width: 768px) {
+    #paragraph {
+        text-align: justify;
+    }
+}
+
 .team-banner-right .box {
     border-top: 1px solid rgb(116, 116, 116);
     border-bottom: 1px solid rgb(128, 128, 128);

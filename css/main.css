@@ -1373,7 +1373,7 @@ th {
 .about-right h1 {
     margin-bottom: 30px;
     color: #222;
-    font-size: 35px !important;
+    font-size: 30px !important;
 }
 
 @media (max-width: 991px) {
@@ -2566,7 +2566,15 @@ th {
 }
 
 @media (max-width: 1199px) {
-    .blog-post-area .single-blog-post .text p {}
+    .blog-post-area .single-blog-post .text p {
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 768px) {
+    #texthide {
+        display: none !important;
+    }
 }
 
 

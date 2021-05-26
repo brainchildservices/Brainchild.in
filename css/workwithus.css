@@ -17,13 +17,19 @@
 @media (max-width: 768px) {
     .work-banner-right h1 {
         font-size: 35px;
-        margin-top: -1rem;
+        margin-top: -2rem;
     }
 }
 
 @media (max-width: 768px) {
     #hidepara {
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #paragraph {
+        text-align: justify;
     }
 }
 
