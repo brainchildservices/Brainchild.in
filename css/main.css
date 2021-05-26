@@ -844,14 +844,14 @@ th {
 }
 
 .section-title h2 {
-    font-size: 42px;
+    font-size: 35px;
     color: #222;
     margin-bottom: 20px;
     font-weight: 500;
 }
 
 .section-title1 h2 {
-    font-size: 42px;
+    font-size: 35px;
     color: #222;
     margin-bottom: 20px;
     font-weight: 500;
@@ -1373,6 +1373,7 @@ th {
 .about-right h1 {
     margin-bottom: 30px;
     color: #222;
+    font-size: 35px !important;
 }
 
 @media (max-width: 991px) {
