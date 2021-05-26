@@ -6,7 +6,6 @@
 .hire-banner-right {
     margin-top: 140px;
     text-align: right;
-   
 }
 
 @media (max-width: 1199px) {
@@ -15,18 +14,14 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .hire-banner-right h1 {
         font-size: 30px;
+        margin-top: -2rem;
     }
 }
 
-@media (max-width: 767px) {
-    .hire-banner-right p {
-        display: none;
-    }
-}
-.hire-banner-right p{
+.hire-banner-right p {
     font-size: 16px;
 }
 
@@ -37,7 +32,7 @@
     display: inline-block;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .hire-banner-right .box {
         padding: 7px 15px;
         margin-top: 30px;
@@ -69,6 +64,7 @@
 .hire-banner-right .box a:hover {
     color: #222222;
 }
+
 @media (max-width: 991px) {
     .about-area .about-left {
         margin-bottom: 50px;
@@ -104,8 +100,7 @@
     margin-bottom: 0;
 }
 
-.about-left img  {
+.about-left img {
     height: 500px;
-    width:500px;
+    width: 500px;
 }
-

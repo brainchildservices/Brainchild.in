@@ -6,7 +6,6 @@
 .contact-banner-right {
     margin-top: 140px;
     text-align: right;
-   
 }
 
 @media (max-width: 1199px) {
@@ -15,18 +14,20 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .contact-banner-right h1 {
         font-size: 30px;
+        margin-top: -2rem;
     }
 }
 
-@media (max-width: 767px) {
-    .contact-banner-right p {
+@media (max-width: 768px) {
+    #hidepara {
         display: none;
     }
 }
-.contact-banner-right p{
+
+.contact-banner-right p {
     font-size: 14px;
 }
 
@@ -76,15 +77,16 @@
     width: 573px;
     margin-left: 100px;
 }
+
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 543px;
     width: 473px;
 }
-@media (max-width: 880px)
-{
-    .mapouter{
+
+@media (max-width: 880px) {
+    .mapouter {
         display: none;
     }
 }

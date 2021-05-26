@@ -1265,12 +1265,14 @@ th {
 @media (max-width: 991px) {
     .home-banner-left h1 {
         font-size: 45px;
+        margin-top: 3rem;
     }
 }
 
 @media (max-width: 414px) {
     .home-banner-left h1 {
-        font-size: 40px;
+        font-size: 30px;
+        margin-top: 3rem;
     }
 }
 
@@ -2563,9 +2565,7 @@ th {
 }
 
 @media (max-width: 1199px) {
-    .blog-post-area .single-blog-post .text p {
-        display: none;
-    }
+    .blog-post-area .single-blog-post .text p {}
 }
 
 
