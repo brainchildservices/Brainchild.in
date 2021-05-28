@@ -3,6 +3,13 @@
     min-height: 510px;
 }
 
+@media (max-width: 768px) {
+    .contact-banner-area {
+        background: url(../img/banner-bg1.png) no-repeat center;
+        min-height: 510px;
+    }
+}
+
 .contact-banner-right {
     margin-top: 140px;
     text-align: right;
@@ -24,6 +31,12 @@
 @media (max-width: 768px) {
     #hidepara {
         display: none;
+    }
+}
+
+@media (max-width: 280px) {
+    #hidepara {
+        font-size: 11px;
     }
 }
 
