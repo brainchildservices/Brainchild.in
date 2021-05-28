@@ -27,6 +27,12 @@
     }
 }
 
+@media (max-width: 280px) {
+    #hidepara {
+        font-size: 11px;
+    }
+}
+
 .contact-banner-right p {
     font-size: 14px;
 }
