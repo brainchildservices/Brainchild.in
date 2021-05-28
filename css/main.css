@@ -1109,7 +1109,7 @@ th {
     position: fixed;
     left: 0;
     width: 100%;
-    background: #222222;
+    background: #9934f0;
 }
 
 #search-input-box {
@@ -1462,8 +1462,9 @@ th {
 
 .feature-item p {
     margin-bottom: 0px;
-    font-size: 10px;
+    font-size: 11px;
     line-height: normal;
+    color: #343434;
 }
 
 
@@ -5141,6 +5142,12 @@ strong {
 
 #applypara {
     color: #fff;
+}
+
+@media(max-width:768px) {
+    #cardtext {
+        margin-top: 2rem;
+    }
 }
 
 

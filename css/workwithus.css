@@ -229,3 +229,18 @@
     -o-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
 }
+
+#points {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+#points li::before {
+    content: "\2022";
+    color: #9934f0;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 1em;
+    font-size: 1.3rem;
+}
