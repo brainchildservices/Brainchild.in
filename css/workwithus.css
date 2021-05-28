@@ -3,10 +3,17 @@
     min-height: 510px;
 }
 
+@media (max-width: 768px) {
+    .work-banner-area {
+        background: url(../img/banner-bg1.png) no-repeat bottom;
+        background-position: bottom;
+        min-height: 610px;
+    }
+}
+
 .work-banner-right {
     margin-top: 140px;
     text-align: right;
-   
 }
 
 @media (max-width: 1199px) {
@@ -15,18 +22,25 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .work-banner-right h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
-@media (max-width: 767px) {
-    .work-banner-right p {
+@media (max-width: 768px) {
+    #hidepara {
         display: none;
     }
 }
-.work-banner-right p{
+
+@media (max-width: 768px) {
+    #paragraph {
+        text-align: justify;
+    }
+}
+
+.work-banner-right p {
     font-size: 14px;
 }
 
@@ -70,37 +84,38 @@
     color: #222222;
 }
 
-.work-contact h4{
+.work-contact h4 {
     font-weight: 700;
     margin-bottom: 15px;
 }
 
-.work-contact h3{
-    font-weight:bolder;
+.work-contact h3 {
+    font-weight: bolder;
 }
 
-.work-contact .row{
+.work-contact .row {
     margin-top: 50px;
 }
+
 @media screen and (max-width: 601px) {
     .work-contact h4 {
-      font-size: 18px;
+        font-size: 18px;
     }
-  }
+}
+
 @media screen and (max-width: 601px) {
     .work-contact h3 {
-      font-size: 20px;
+        font-size: 20px;
     }
-  }
+}
 
+.work-about-area {
+    padding-top: 0.1px;
+}
 
-  .work-about-area {
-      padding-top: 0.1px;
-  }
-  @media (max-width: 991px) {
+@media (max-width: 991px) {
     .work-about-area .about-left {
         margin-bottom: 50px;
-        
     }
 }
 
@@ -131,7 +146,6 @@
 .about-right p:last-of-type {
     margin-bottom: 0;
 }
-
 
 .work-video-area {
     background: url(../img/video-area-bg.png) no-repeat center;
@@ -221,4 +235,19 @@
     -ms-filter: brightness(0) invert(1);
     -o-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
+}
+
+#points {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+#points li::before {
+    content: "\2022";
+    color: #9934f0;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 1em;
+    font-size: 1.3rem;
 }

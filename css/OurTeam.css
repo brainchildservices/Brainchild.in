@@ -2,7 +2,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
-    color: #323232;
+    color: #7e7e7e;
     font-size: 15px;
     font-weight: 400;
     text-rendering: optimizeLegibility;
@@ -30,7 +30,7 @@ body {
 }
 
 .half-txt {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     display: inline-block;
     line-height: 25px;
