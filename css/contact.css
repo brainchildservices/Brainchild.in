@@ -1,5 +1,5 @@
 .contact-banner-area {
-    background: url(../img/banner-bg.png) no-repeat center;
+    background: url(../img/banner-bg1.png) no-repeat center;
     min-height: 510px;
 }
 
@@ -24,6 +24,12 @@
 @media (max-width: 768px) {
     #hidepara {
         display: none;
+    }
+}
+
+@media (max-width: 280px) {
+    #hidepara {
+        font-size: 11px;
     }
 }
 
