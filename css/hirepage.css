@@ -3,6 +3,13 @@
     min-height: 510px;
 }
 
+@media(max-width:768px) {
+    .hire-banner-area {
+        background: url(../img/banner-bg1.png) no-repeat center;
+        min-height: 510px;
+    }
+}
+
 .hire-banner-right {
     margin-top: 140px;
     text-align: right;
@@ -17,7 +24,6 @@
 @media (max-width: 768px) {
     .hire-banner-right h1 {
         font-size: 35px;
-        margin-top: -2rem;
     }
 }
 

@@ -255,6 +255,15 @@ figure {
     }
 }
 
+@media (max-width:280px) {
+    #img-logo {
+        vertical-align: middle;
+        border-style: none;
+        height: 25px;
+        align-items: center;
+    }
+}
+
 svg {
     overflow: hidden;
     vertical-align: middle
